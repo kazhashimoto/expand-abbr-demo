@@ -1,5 +1,7 @@
 # expand-abbrコマンドのデモ
 
+https://github.com/kazhashimoto/expand-abbr
+
 ## Usage
 
 ```
