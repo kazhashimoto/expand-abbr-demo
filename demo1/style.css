@@ -1,0 +1,43 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+header {
+  padding: 20px 4%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.text + .text {
+  margin-top: 20px;
+}
+
+.top {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+section {
+  max-width: 92%;
+  margin: 50px auto 0;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px 4%;
+  background: var(--stone-10);
+  color: #fff;
+}
+
+footer p {
+  font-size: var(--font-size-0);
+}
