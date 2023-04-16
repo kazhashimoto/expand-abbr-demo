@@ -6,6 +6,4 @@ footer='footer>p{&copy; 2023 Example}'
 
 css='style.css'
 
-INDENT="js-beautify --type html -s 2 -n"
-
-expand-abbr -h -c "$css" "$header" "$main" "$footer" | $INDENT
+expand-abbr -h -c "$css" "$header" "$main" "$footer"
